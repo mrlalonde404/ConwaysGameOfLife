@@ -1,5 +1,3 @@
-from PIL import Image, ImageDraw
-import numpy as np
 import pygame
 from Cell import *
 from Colors import *
@@ -173,8 +171,6 @@ def main():
 	while run:
 		# caps the framerate at value of FPS to control how many times this while loop happens per second
 		clock.tick(FPS)
-
-		#fps_control()
 
 		# loop through all game events
 		for event in pygame.event.get():
